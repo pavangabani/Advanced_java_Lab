@@ -4,7 +4,7 @@ Lab-1
 
 Lab-2
 	/* Lab 2_A : Write a program to print command line arguments and their respective lengths. */ 
-	/* Lab 2_B : Write a program to find factorial of a number using static method. */ 
+ 	 /* Lab 2_B : Write a program to find factorial of a number using static method. */ 
 	/* Lab 2_C : Write a program to find factorial of a number using non-static method. */ 
 	+++++/* Lab 2_D : Declare a class called simple having one integer data member. Define constructors (default as well as parameterized).Define a method called display. Also show the usage in main */
 	+++++/* Lab 2_E : Write a program to check accessibility of different access specifiers. Define main to show the usage. */  
