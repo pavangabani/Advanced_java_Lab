@@ -1,0 +1,5 @@
+system.out.print 
+string []s vs string s[]
+wrraper class
+scope of dynamically allocate object
+

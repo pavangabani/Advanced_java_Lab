@@ -1,0 +1,27 @@
+why no preprocessing directive in java? 
+//anonymous inner class
+//Exception handler cannot be of type int
+Give the reason to use constructor Thread(this) while implementing Runnable
+Can you overload an overriding method? Why if your answer is no, and how if you answer yes. Give an example.
+
+
+3 100%
+producer consumer x producer y consumer z data  2. methods uses
+draw and code gui mouse&keybord listner / cheak&radio button
+  1. login page  user/password  
+  2. stack / linklist use collection class
+run time polymorphism / inherit
+
+2017 mid2 q1b
+applet drawing
+
+pop applet 29
+multi threading 23
+
+*****************************************************************
+Now one more unusual thing will come in output which is that, we will not able to see previous co-ordinates.But why?
+In Java, before calling paint() method, it calls one more method which is update() and it do the following things:
+it repaints the applet background with current color.
+it then calls paint().
+Now to see previous co-ordinates as well:
+we have to over-ride update() method also and it’s prototype is similar to paint()

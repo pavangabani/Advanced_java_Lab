@@ -1,0 +1,61 @@
+Lab-1
+	/* Lab 1_A : Write a proogram to merge two strings. */ 
+	/* Lab 1_B : Write a proogram to find the smallest of three numbers. */ 
+
+Lab-2
+	/* Lab 2_A : Write a program to print command line arguments and their respective lengths. */ 
+	/* Lab 2_B : Write a program to find factorial of a number using static method. */ 
+	/* Lab 2_C : Write a program to find factorial of a number using non-static method. */ 
+	+++++/* Lab 2_D : Declare a class called simple having one integer data member. Define constructors (default as well as parameterized).Define a method called display. Also show the usage in main */
+	+++++/* Lab 2_E : Write a program to check accessibility of different access specifiers. Define main to show the usage. */  
+
+Lab-3
+	/* Lab 3_A : Write a program to implement stack. Give command line arguments to perform push and pop sequences.*/ 
+	+++++/* Lab 3_B : Declare a class complex having two integer data members r and i. Define required constructors. Also define a method to add two complex numbers. Define method display. Show the usage in main.*/ 
+	/* Lab 3_C : Write a program to accept int command line arguments and to count positive and negative arguments. Process all the arguments. */ 
+	/* Lab 3_D : Write a program to accept int command line arguments and to count positive and negative arguments. When there is argument other than int type, stop counting. */ 
+
+Lab-4
+	/* Lab 4_A : Define a class to implement singly linked list. Define required constructors and method display. Also define two search methods. One with usage of short circuit operator && and another without it. */ 
+	/* Lab 4_B : Write a program to get user input using Scanner */ 
+
+Lab-5
+	/* Lab 5_A : Write a program to add two matrices to produce a resultant matrix. Assume the size of the matrix as m x n.Also define a method that finds the transpose a matrix. The result should be available in calling method. Define a method to find maximum and minimum valued elements of a matrix. The result should be available in calling method.  Read inputs from keyboard using method(s) of class Scanner.*/ 
+
+Lab-6
+	/* Lab 6_A : Write a program to implement stack. Raise and handle the exception for stack_underflow and stack_overflow conditions*/ 
+	/* Lab 6_B : Write a program to add two matrices to produce a resultant matrix. Assume the size of the matrix as m x n and get it from the user. Raise and handle the exception if the dimensions are not same.*/ 
+
+Lab-7
+	/* Lab 7_A : Declare a class called shape and two subclasses tri and rect. Declare the method calculate_area as abstract and also class shape as abstract and override this method in both subclasses tri and rect. Use dynamic method dispatch. Show the usage in main.*/ 
+	/* Lab 7_B : Declare a class called shape and two subclasses tri and rect. Declare the method calculate_area in class shape and override this method in both subclasses tri and rect.(Without dynamic method dispatch) Show the usage in main.*/
+
+Assignment-1
+	/* Assignment_1 : Declare a class called buffer having an int array of length n to store only positive nos. Define methods and main to meet following: 
+
+- Read location and value pairs until 0 0 given 
+
+- write into the array at location l value v if, 
+
+    - Location l is valid, else raise and handle an exception 
+
+    - Value v is positive, else raise and handle an exception (of different type) 
+
+    - Location l is empty, else raise and handle an exception (different type - user defined). */  
+
+Lab-8
+	/* Lab 8_A : Write a program to implement interface named "sort_interface"  where 
+
+    - interface method named sort 
+
+    - two different classes of one dimensional array containing sorting types 
+
+          (such as Bubble, Insertion, Selection, Quick, etc) 
+
+    - two classes to implement interface "sort_interface" 
+
+    - use sort method to sort the given one dimensional array */ 
+	++++++/* Lab 8_B : Define a method called raise_exception that raises an exception with code_no ranging from 1 to 25. The raised exception is to be handled within method for codes 1 to 10. For remaining it is to be rethrown for handling it by calling method (main). Use cutomized exception. */ 
+
+Assignment-2
+	/* Assignment_2 : Extend class student to have a subclass called performance. Display the details of all students having highest CPI */ 

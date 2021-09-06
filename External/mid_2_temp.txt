@@ -1,0 +1,45 @@
+//1. order of calls of methods in applet
+	init
+	start
+	stop
+	destroy
+
+//2. when will exception handler InterupptedEcxeption be executed?
+	when one thread is interuppted and goes to block state without terminating,and that thread when 
+reschedule again at that time exception handler of InterruptedException executed.
+
+//3. why sleep required to be native method?
+	 To improve performance of the system.
+          To achieve machine level/memory level communication.
+          To use already existing legacy non-java code.
+
+//4. explain by giving example how packages are usefull for resolving naming conflicts.
+	packages means folders.as we can't have files with same name in same folder,but can have files with same name 
+in different folder.same way we can't have classes with same name in 1 package but can have classes with same name in 
+different package.
+
+//5. arrange in order based on most liberal to most strict access specifier.
+	public
+	protected
+	default
+	private
+
+//6. how do you decide whether implement runnable or to extend thread?
+	if a class already extends another class then it can't extends Thread because multiple inheritance is not allowed 
+in java.in that case we have to implement runnable interface.otherwise we can use both approaches.
+
+//7. not correct for interface(multiple answer).
+	a reference of interface can't be created
+
+//8. write all steps for creating a GUI component for handling corresponding events.
+
+
+//9.wait is a member method of Thread,why?
+
+
+//10. write possible consequances of not using volatile keyword in multi-threaded program. 
+The volatile modifier is used to let the JVM know that a thread accessing the variable must always merge
+ its own private copy of the variable with the master copy in the memory. Accessing a volatile variable
+ synchronizes all the cached copied of the variables in the main memory
+
+
